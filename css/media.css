@@ -1,0 +1,162 @@
+/* Smart phone and tablets*/
+
+@media (max-width:499px){
+    .navbar-inverse .navbar-brand{font-size: 20px;line-height: 20px;}
+/*    section, header, footer, .carousel{width: 108%;}*/
+    .navbar-inverse .navbar-nav>li>a {padding: 7px;}
+    .carousel{ margin-top: 50px;}
+    .carousel-caption{
+        bottom: 27%;
+        font-size: 8px;
+        padding: 1px;
+    }
+    .carousel-caption h4{
+        font-size: 15px;
+        margin-top: 4px;
+        margin-bottom: 3px;
+    }
+    .carousel-caption p{
+        margin-bottom: 3px;
+        line-height: 12px;
+    }
+    .carousel-indicators{bottom: 0px;}
+    .carousel-indicators li{
+        width: 8px;
+        height: 8px;
+    }
+    .carousel-indicators li.active{
+        width: 10px;
+        height: 10px;
+        background-color: #f22;
+    }
+    .option-box .color-option{
+        width: 120px;
+    }
+    .option-box .color-option ul li{
+        width: 10px;
+        height: 10px;
+    }
+    .option-box i.gear-check{
+        font-size:  20px;
+    }
+    .subscribe .form-control{
+        display: block;
+    }
+    .subscribe .btn{
+        margin-top: 10px;
+    }
+    .about-ceo .btn{
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width:500px) and (max-width:767px){
+    .navbar-inverse .navbar-nav>li>a {
+        padding: 7px;
+    }
+    .carousel{margin-top: 50px;}
+    .navbar-inverse .navbar-brand{
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .navbar{
+        max-height: none;
+        padding: 0px;
+    }
+    .carousel-caption{
+        bottom: 35%;
+        font-size: 12px;
+        line-height: 18px;
+        padding: 2px;
+    }
+    .carousel-caption h4{
+        font-size: 25px;
+        margin-top: 4px;
+        margin-bottom: 3px;
+    }
+    .carousel-caption p{
+        margin-bottom: 3px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    .carousel-indicators{
+        bottom: 0px;
+    }
+    .carousel-indicators li{
+        width: 8px;
+        height: 8px;
+    }
+    .carousel-indicators li.active{
+        width: 10px;
+        height: 10px;
+        background-color: #f22;
+    }
+    .team{
+        padding: 3px;
+    }
+    .our-team .team .member img{
+        width: 130px;
+        height: 130px;
+    }
+    .subscribe .btn{
+        margin-top: 10px;
+    }
+    .about-ceo .btn{
+        margin-bottom: 20px;
+    }
+}
+
+/* Small Screen */
+@media (min-width:768px) and (max-width:991px){
+    .carousel-caption{
+        bottom: 25%;
+        font-size: 17px;
+        line-height: 30px;
+        padding: 8px;
+    }
+    .carousel-caption h1{
+        font-size: 30px;
+        margin-top: 0;
+    }
+    .subscribe .form-control {
+        width: 300px;
+    }
+    .about-ceo .btn{
+        margin-bottom: 20px;
+    }
+}
+
+/* Medium Screen */
+@media (min-width:992px) and (max-width:1199px) {
+    .carousel-caption{
+        bottom: 30%;
+        padding: 15px;
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .subscribe .form-control {
+        width: 300px;
+    }
+    .carousel-caption h1{
+        font-size: 30px;
+        margin-top: 0;
+    }
+}
+
+/* Large Screen*/
+@media (min-width:1200px){
+    .carousel-caption{
+        bottom: 35%;
+        padding: 15px;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .subscribe .form-control {
+        width: 300px;
+    }
+    .carousel-caption h1{
+        font-size: 30px;
+        margin-top: 0;
+    }
+}

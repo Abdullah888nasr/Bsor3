@@ -1,0 +1,17 @@
+.prices .price-box p,
+.carousel-indicators li.active,
+.navbar-inverse .navbar-nav>.active>a, 
+.navbar-inverse .navbar-nav>.active>a:focus, 
+.navbar-inverse .navbar-nav>.active>a:hover, 
+.dropdown-menu>li>a:hover, 
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-brand span,
+.scroll-up,
+.control-fileupload .btn,
+.account-popup .close-popup,
+.account-popup .select-user > span:hover, 
+.active-user,
+.account-popup > form button{background-color: #722981;}
+.testmonials .carousel-inner span,
+footer h3,
+.copyright span{color:#722981;}

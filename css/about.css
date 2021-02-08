@@ -1,0 +1,47 @@
+body{font-family: 'Droid Sans', sans-serif;}
+
+.breadcrumb-holder{background-color: #eee;margin-top: 60px;}
+
+ol.breadcrumb{margin: 0;background-color: #eee;}
+
+.about-us h1{font-size: bold;}
+
+.about-features{margin-top: 30px;}
+
+.about-ceo{
+    padding: 20px 20px 0 20px;
+    background-color: #ddd;
+    font-size: 18px;
+}
+
+.about-ceo h2{margin-bottom: 20px;}
+
+.about-ceo .btn{background-color: #333;}
+
+/*Start faq*/
+
+.faq h2{
+    font-weight: bold;
+}
+
+.faq-questions .panel-heading{
+    padding: 15px 20px;
+}
+
+.faq-questions .panel-heading a{
+    display: block;
+}
+
+.faq-questions .panel-heading a:after{
+    font-family: 'Glyphicons Halflings';
+    content: "\e113";
+    float: right;
+}
+
+.faq-questions .panel-heading a.collapsed:after{
+    font-family: 'Glyphicons Halflings';
+    content: "\e114";
+    float: right;
+}
+
+/*End faq*/
